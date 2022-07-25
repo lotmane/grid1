@@ -1,0 +1,37 @@
+#grid{
+   display: grid;
+   height: 100vh;
+   grid-template-columns: 20% 58% 20%;
+   grid-template-rows: 20% 68% 10%;
+   grid-template-areas: " logo nav nav"
+   "content content feature"
+   "footer footer footer" 
+}
+
+
+#logo{
+    background-color: #A52A2A;
+    grid-area: logo;
+}
+
+#nav{
+    background-color: #0000FF;
+    grid-area: nav;
+
+}
+
+#content{
+    background-color: #F5F5DC;
+    grid-area: content;
+}
+
+#feature{
+    background-color: #7FFFD4;
+    grid-area: feature;
+
+}
+
+#footer{
+    background-color: #202020;
+    grid-area: footer;
+}
